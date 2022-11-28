@@ -93,8 +93,7 @@ function InputRow() {
           ))}
         </ul>
       </section>
-      {/* round the result to a max of 3 decimal digits */}
-      <div className="result">Result {result.toFixed(3)}</div> 
+      <div className="result">Result {result}</div> 
     </div>
   );
 }
